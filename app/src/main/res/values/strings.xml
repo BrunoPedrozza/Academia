@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Academia</string>
+    <string name="atulizar_avalia_o">Atulizar Avaliação</string>
+    <string name="criar_treino">Criar Treino</string>
+    <string name="gerar_tabela">Gerar Tabela</string>
+    <string name="todo">TODO</string>
+    <string name="pesquisar_aluno">Pesquisar Aluno</string>
+    <string name="nomealuno">Name</string>
+    <string name="title_activity_cadastro_usuario">cadastro_usuario</string>
+    <string name="title_activity_cadastro_professor">cadastro_professor</string>
+</resources>

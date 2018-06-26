@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_sair_admin"
+        android:orderInCategory="10000"
+        android:title="Desconectar"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_editar_prof"
+        android:orderInCategory="1000"
+        android:title="Editar Professor"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/action_editar_aluno"
+        android:orderInCategory="1000"
+        android:title="Edtar Aluno"
+        app:showAsAction="collapseActionView"/>
+
+
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    tools:context=".Activity.editarprofpart2">
+
+    <Button
+        android:id="@+id/btneditarprof2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:text="Editar Aluno"
+        app:layout_constraintEnd_toEndOf="@+id/btndeletarprof"
+        app:layout_constraintStart_toStartOf="@+id/btndeletarprof"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btndeletarprof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginTop="66dp"
+        android:text="Deletar Aluno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btneditarprof2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnvoltareditarprof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="109dp"
+        android:text="Voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btneditarprof2"
+        app:layout_constraintStart_toStartOf="@+id/btneditarprof2"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
